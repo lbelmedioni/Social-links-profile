@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+:root{
+   --color-White: hsl(0, 0%, 100%);
+   --color-Green: hsl(75, 94%, 57%);
+   --color-Grey:  hsl(0, 0%, 20%);
+   --color-Dark-Grey: hsl(0, 0%, 12%);
+   --color-Off-Black: hsl(0, 0%, 8%);
+   
+   --font-size: 14px;
+   --font-family-inter:  Inter;
+   --font-weight-regular: 400;
+   --font-weight-bold: 600;
+   --font-weight-extra-bold: 700;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: var(--font-family-inter);
+   font-size: var(--font-size);
+   background-image: url(./assets/images/pintrest3.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   width: 100wh;
+   height: 100vh;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+#container{
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    border-radius: 10px;
+    height: 550px;
+    margin: 100px auto;
+    padding: 25px;
+}
+img{
+width: 80px;
+border-radius: 50px;
+margin-left: 110px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+h2{
+    font-family: monospace;
+    font-weight: var(--font-weight-bold);
+    font-family: monospace;
+    color: rgb(152, 101, 161);
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+h4{
+    font-family: monospace;
+    font-weight: var(--font-weight-bold);
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+p{
+    margin-left: 20px;
+    width: 300px;
+    font-family: var(--font-family-inter);
+    margin-bottom: 20px;
+    color: rgb(84, 83, 83);
+    font-weight: var(--font-weight-regular);
+}
+#btn{
+    width: 250px;
+    height: 240px;
+
+}
+button{
+    margin-left: 23px;
+    margin-bottom: 12px;
+    padding-block: 14px;
+    border: none;
+    width: 250px;
+    border-radius: 12px;
+    color: rgb(152, 101, 161);
+    
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    transition: all 0.9s;
+
+}
+button:hover{
+    background-color:rgb(152, 101, 161) ;
+    color:rgb(194, 193, 193) ;
+    font-weight: var(--font-weight-bold);
+    transform: scale(1.09);
+}
+
+
+
+
+
+
+
+
+
+
+
+
